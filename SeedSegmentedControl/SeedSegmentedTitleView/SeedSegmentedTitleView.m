@@ -1317,8 +1317,8 @@
         _scrollView = [[UIScrollView alloc] init];
         
         _scrollView.alwaysBounceHorizontal = YES;
-        _scrollView.showsVerticalScrollIndicator = YES;
-        _scrollView.showsHorizontalScrollIndicator = YES;
+        _scrollView.showsVerticalScrollIndicator = NO;
+        _scrollView.showsHorizontalScrollIndicator = NO;
         _scrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
     }
     

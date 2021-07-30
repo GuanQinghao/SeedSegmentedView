@@ -22,7 +22,7 @@
     }
     
     switch (style) {
-        case SeedSegmentedTitleGraphicStyleLeft: {
+        case SeedSegmentedTitleGraphicStyleImageOnLeft: {
             
             if (self.contentHorizontalAlignment == UIControlContentHorizontalAlignmentLeft) {
                 
@@ -37,7 +37,7 @@
             }
         }
             break;
-        case SeedSegmentedTitleGraphicStyleRight: {
+        case SeedSegmentedTitleGraphicStyleImageOnRight: {
             
             CGFloat imageWidth = self.imageView.image.size.width;
             CGFloat titleWidth = self.titleLabel.frame.size.width;
@@ -59,7 +59,7 @@
             }
         }
             break;
-        case SeedSegmentedTitleGraphicStyleTop: {
+        case SeedSegmentedTitleGraphicStyleImageOnTop: {
             
             CGFloat imageWidth = self.imageView.frame.size.width;
             CGFloat imageHeight = self.imageView.frame.size.height;
@@ -70,7 +70,7 @@
             self.titleEdgeInsets = UIEdgeInsetsMake(0.0f, -imageWidth, -imageHeight - spacing, 0.0f);
         }
             break;
-        case SeedSegmentedTitleGraphicStyleBottom: {
+        case SeedSegmentedTitleGraphicStyleImageOnBottom: {
             
             CGFloat imageWidth = self.imageView.frame.size.width;
             CGFloat imageHeight = self.imageView.frame.size.height;

@@ -255,7 +255,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = GQH;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = GuanQinghao;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {

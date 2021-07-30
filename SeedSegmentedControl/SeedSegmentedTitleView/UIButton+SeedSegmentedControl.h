@@ -12,13 +12,13 @@
 typedef NS_ENUM(NSUInteger, SeedSegmentedTitleGraphicStyle) {
     
     /// 默认样式, 图片在左, 文字在右
-    SeedSegmentedTitleGraphicStyleLeft,
+    SeedSegmentedTitleGraphicStyleImageOnLeft,
     /// 图片在右, 文字在左
-    SeedSegmentedTitleGraphicStyleRight,
+    SeedSegmentedTitleGraphicStyleImageOnRight,
     /// 图片在上, 文字在下
-    SeedSegmentedTitleGraphicStyleTop,
+    SeedSegmentedTitleGraphicStyleImageOnTop,
     /// 图片在下, 文字在上
-    SeedSegmentedTitleGraphicStyleBottom
+    SeedSegmentedTitleGraphicStyleImageOnBottom
 };
 
 
